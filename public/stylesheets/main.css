@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #191d28 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #3dc6c1;
+}
+.headers {
+  color: #797b81;
+}
+.data:nth-child(2n) {
+  background-color: #52555e;
+  color: #fff;
+  margin: 5px auto;
+}
+.data td {
+  padding: 10px 20px;
+}
+
+.br {
+  height: 30px !important;
+}
